@@ -19,7 +19,7 @@ namespace API.Controllers
             _context = context;
         }
 
-        // api/users all users
+        // api/users all users First branch edit
         [HttpGet]
         public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
         {
